@@ -8,7 +8,7 @@ export default function Home() {
     if (title === 'Initial Title') {
       setTitle('Hello useState');
     } else {
-      setTitle('Hello useState');
+      setTitle('Initial Title');
     }
   };
 
