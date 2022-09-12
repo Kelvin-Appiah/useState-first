@@ -9,9 +9,12 @@
 
 .button {
   margin-left: 45%;
-  color: rgb(10, 102, 194);
-  border: 1px solid rgb(10, 102, 194);
-  padding: 10px 22px;
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
   background-color: #fff;
   outline: none;
   cursor: pointer;
@@ -20,5 +23,5 @@
 
 .button:hover {
   border-width: 2px;
-  background-color: rgb(226, 240, 254);
+  background-color: rgb(196, 196, 196);
 }
