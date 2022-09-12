@@ -5,7 +5,11 @@ export default function Home() {
   const [title, setTitle] = useState('Initial Title');
 
   const handleClick = () => {
-    setTitle('Hello useState');
+    if (title === 'Initial Title') {
+      setTitle('Hello useState');
+    } else {
+      setTitle('Hello useState');
+    }
   };
 
   return (
