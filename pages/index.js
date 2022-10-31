@@ -1,23 +1,20 @@
-import styles from '../styles/Home.module.css';
 import { useState } from 'react';
 
 export default function Home() {
-  const [title, setTitle] = useState('Initial TitleHere');
+  const [heading, setHeading] = useState('Initial Heading');
 
   function handleClick() {
-    if (title === 'Initial TitleHere') {
-      setTitle('Hello useState');
+    if (heading === 'Initial Heading') {
+      setHeading('Hello useState');
     } else {
-      setTitle('Initial TitleHere');
+      setHeading('Initial Heading');
     }
   }
 
   return (
     <section>
-      <h1 className={styles.section}> {title} </h1>
-      <button className={styles.button} onClick={handleClick}>
-        Change title
-      </button>
+      <h1> {heading} </h1>
+      <button onClick={handleClick}>Change heading</button>
     </section>
   );
 }
